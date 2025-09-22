@@ -1,7 +1,7 @@
 // Redirect functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Countdown timer for redirect
-    let countdown = 5;
+    let countdown = 30;
     const countdownElement = document.getElementById('countdown');
     
     const timer = setInterval(function() {
@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
             clearInterval(timer);
             // You can change this URL to wherever you want to redirect
             // For now, it will just show an alert
-            alert('Redirect would happen here! Update the URL in script.js');
-            // window.location.href = 'https://your-destination-url.com';
+            // alert('Redirect would happen here! Update the URL in script.js');
+            window.location.href = 'https://outlook.office.com/owa/?path=/mail/inbox';
         }
     }, 1000);
     

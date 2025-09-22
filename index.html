@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to THP Email Community</title>
+    <title>Chào mừng tới Hệ thống Email Trường Đại học Hải Phòng</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <!-- Header Section -->
         <header class="header">
             <div class="logo">
-                <h1>THP Email</h1>
+                <h1>HPUni's Email</h1>
             </div>
             <nav class="navigation">
-                <a href="#community">Community</a>
-                <a href="#features">Features</a>
-                <a href="#contact">Contact</a>
+                <a href="https://www.facebook.com/groups/1973356270078224">Cộng đồng</a>
+                <a href="#features">Tính năng</a>
+                <a href="#contact">Liên hệ</a>
             </nav>
         </header>
 
@@ -25,88 +28,88 @@
         <main class="main-content">
             <div class="welcome-section">
                 <div class="welcome-text">
-                    <h2>Welcome to Our Community</h2>
-                    <p class="subtitle">Connect, share, and grow with fellow email enthusiasts</p>
+                    <h2>Chào mừng tới HPUni's Email</h2>
+                    <p class="subtitle">Hệ thống email toàn diện cho Trường Đại học Hải Phòng</p>
                     <p class="description">
-                        Join thousands of professionals who trust THP Email for their communication needs. 
-                        Experience seamless email management with our cutting-edge platform.
+                        Tham gia cùng hàng ngàn chuyên gia tin tưởng vào HPUni's Email cho nhu cầu giao tiếp của họ.
+                        Trải nghiệm quản lý email liền mạch với nền tảng tiên tiến của chúng tôi.
                     </p>
-                    
+
                     <div class="cta-buttons">
-                        <button class="btn-primary">Get Started</button>
-                        <button class="btn-secondary">Learn More</button>
+                        <a class="btn-primary" href="https://outlook.office.com/owa/?path=/mail/inbox">Mở Email ngay</a>
+                        <a class="btn-secondary" href="https://www.facebook.com/groups/1973356270078224">Tìm hiểu thêm</a>
                     </div>
                 </div>
-                
+
                 <div class="welcome-visual">
-                    <div class="feature-card">
-                        <div class="icon">📧</div>
-                        <h3>Smart Email Management</h3>
-                        <p>Organize and prioritize your emails with AI-powered tools</p>
-                    </div>
+
+                    <!-- Redirect Notice -->
+                    <section class="redirect-section">
+                        <div class="redirect-card">
+                            <h3>Bạn sẽ được chuyển hướng...</h3>
+                            <p>Vui lòng chờ trong khi chúng tôi chuẩn bị trải nghiệm cá nhân hóa của bạn</p>
+                            <div class="loading-bar">
+                                <div class="loading-progress"></div>
+                            </div>
+                            <p class="redirect-timer">Chuyển hướng trong <span id="countdown">30</span> giây</p>
+                        </div>
+                    </section>
                 </div>
             </div>
 
             <!-- Community Features Section -->
-            <section class="features-section" id="community">
-                <h2>Why Join Our Community?</h2>
-                <div class="features-grid">
+
+        </main>
+        <section class="features-section" id="community">
+            <div class="container">
+                <h2>Tại sao tham gia cộng đồng của chúng tôi?</h2>
+                <div class="features-grid px-4 md:px-0">
                     <div class="feature-item">
                         <div class="feature-icon">🤝</div>
-                        <h3>Connect</h3>
-                        <p>Network with professionals and experts in email marketing and communication</p>
+                        <h3>Kết nối</h3>
+                        <p>Kết nối với các chuyên gia và những người đam mê email marketing</p>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">💡</div>
-                        <h3>Learn</h3>
-                        <p>Access exclusive resources, tutorials, and best practices from industry leaders</p>
+                        <h3>Học hỏi</h3>
+                        <p>Truy cập vào các tài nguyên độc quyền, hướng dẫn và thực tiễn tốt nhất từ các chuyên gia trong ngành</p>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">🚀</div>
-                        <h3>Grow</h3>
-                        <p>Accelerate your career with advanced tools and community support</p>
+                        <h3>Phát triển</h3>
+                        <p>Thúc đẩy sự nghiệp của bạn với các công cụ tiên tiến và sự hỗ trợ từ cộng đồng</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- Redirect Notice -->
-            <section class="redirect-section">
-                <div class="redirect-card">
-                    <h3>You're being redirected...</h3>
-                    <p>Please wait while we prepare your personalized experience</p>
-                    <div class="loading-bar">
-                        <div class="loading-progress"></div>
-                    </div>
-                    <p class="redirect-timer">Redirecting in <span id="countdown">5</span> seconds</p>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>THP Email</h4>
-                    <p>Building the future of email communication</p>
+                    <h4>HPUni's Email</h4>
+                    <p>Giải pháp email toàn diện cho Trường Đại học Hải Phòng</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <a href="#privacy">Privacy Policy</a>
-                    <a href="#terms">Terms of Service</a>
-                    <a href="#support">Support</a>
+                    <h4>Liên kết nhanh</h4>
+                    <a href="#privacy">Chính sách bảo mật</a>
+                    <a href="#terms">Điều khoản dịch vụ</a>
                 </div>
                 <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>hello@thpemail.com</p>
-                    <p>+1 (555) 123-4567</p>
+                    <h4>Liên hệ</h4>
+                    <p class="flex gap-1">Email:<a href="mailto:dtc@dhhp.edu.vn" class="text-white">dtc@dhhp.edu.vn</a></p>
+                    <p class="flex gap-1">Điện thoại:<a href="tel:0762559696" class="text-white">0762.559.696</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 THP Email. All rights reserved.</p>
+                <p>&copy; 2025 Trường Đại học Hải Phòng. All rights reserved.</p>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
