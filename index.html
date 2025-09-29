@@ -4,112 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chào mừng tới Hệ thống Email Trường Đại học Hải Phòng</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>HPUni's Email</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <div class="logo">
-                <h1>HPUni's Email</h1>
-            </div>
-            <nav class="navigation">
-                <a href="https://www.facebook.com/groups/1973356270078224">Cộng đồng</a>
-                <a href="#features">Tính năng</a>
-                <a href="#contact">Liên hệ</a>
-            </nav>
-        </header>
-
-        <!-- Main Welcome Section -->
-        <main class="main-content">
-            <div class="welcome-section">
-                <div class="welcome-text">
-                    <h2>Chào mừng tới HPUni's Email</h2>
-                    <p class="subtitle">Hệ thống email toàn diện cho Trường Đại học Hải Phòng</p>
-                    <p class="description">
-                        Tham gia cùng hàng ngàn chuyên gia tin tưởng vào HPUni's Email cho nhu cầu giao tiếp của họ.
-                        Trải nghiệm quản lý email liền mạch với nền tảng tiên tiến của chúng tôi.
-                    </p>
-
-                    <div class="cta-buttons">
-                        <a class="btn-primary" href="https://outlook.office.com/owa/?path=/mail/inbox">Mở Email ngay</a>
-                        <a class="btn-secondary" href="https://www.facebook.com/groups/1973356270078224">Tìm hiểu thêm</a>
+<body class="h-screen w-screen bg-cover bg-center flex items-center justify-center"
+    style="background-image: url('bg.png');">
+    <div class="absolute inset-0 bg-black opacity-25"></div>
+    <div class="relative z-10 text-center px-4 md:px-0">
+        <div class="glassmorphism p-4 w-20 h-20 flex items-center justify-center mx-auto mb-4 rounded-xl">
+            <a href="https://dhhp.edu.vn">
+                <img src="https://dhhp.edu.vn/favicon.ico" alt="HPUni's Email Logo" class="hover:scale-110 transition-transform duration-300" />
+            </a>
+        </div>
+        <h1 class="text-2xl 2xl:text-5xl font-bold mb-4 text-white text-center">HPUni's Email</h1>
+        <p class="text-white mb-6 max-w-xl mx-auto 2xl:text-xl">Hệ thống email dành cho sinh viên Trường Đại học Hải
+            Phòng.</p>
+        <div class="glassmorphism p-6 2xl:p-8 max-w-md mx-auto mt-10 mb-4 rounded-xl">
+            <div class="text-white text-center mb-4 2xl:mb-6">Truy cập các ứng dụng</div>
+            <div class="flex justify-center space-x-6 2xl:space-x-10">
+                <a href="https://outlook.office.com/owa/?path=/mail/inbox" class="flex flex-col items-center">
+                    <div
+                        class="mb-2 w-10 h-10 flex items-center justify-center hover:scale-105 transition-transform duration-300">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/826px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
+                            alt="Outlook Logo" />
                     </div>
-                </div>
-
-                <div class="welcome-visual">
-
-                    <!-- Redirect Notice -->
-                    <section class="redirect-section">
-                        <div class="redirect-card">
-                            <h3>Bạn sẽ được chuyển hướng...</h3>
-                            <p>Vui lòng chờ trong khi chúng tôi chuẩn bị trải nghiệm cá nhân hóa của bạn</p>
-                            <div class="loading-bar">
-                                <div class="loading-progress"></div>
-                            </div>
-                            <p class="redirect-timer">Chuyển hướng trong <span id="countdown">30</span> giây</p>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <!-- Community Features Section -->
-
-        </main>
-        <section class="features-section" id="community">
-            <div class="container">
-                <h2>Tại sao tham gia cộng đồng của chúng tôi?</h2>
-                <div class="features-grid px-4 md:px-0">
-                    <div class="feature-item">
-                        <div class="feature-icon">🤝</div>
-                        <h3>Kết nối</h3>
-                        <p>Kết nối với các chuyên gia và những người đam mê email marketing</p>
+                    <div class="text-white text-center">Outlook</div>
+                </a>
+                <a href="https://outlook.office.com/owa/?path=/mail/inbox" class="flex flex-col items-center">
+                    <div
+                        class="mb-2 w-10 h-10 flex items-center justify-center hover:scale-105 transition-transform duration-300">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg/405px-Microsoft_Office_logo_%282013%E2%80%932019%29.svg.png"
+                            alt="Office Logo" />
                     </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">💡</div>
-                        <h3>Học hỏi</h3>
-                        <p>Truy cập vào các tài nguyên độc quyền, hướng dẫn và thực tiễn tốt nhất từ các chuyên gia trong ngành</p>
+                    <div class="text-white text-center">Office</div>
+                </a>
+                <a href="https://outlook.office.com/owa/?path=/mail/inbox" class="flex flex-col items-center">
+                    <div
+                        class="mb-2 w-10 h-10 flex items-center justify-center hover:scale-105 transition-transform duration-300">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png"
+                            alt="Microsoft Logo" />
                     </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">🚀</div>
-                        <h3>Phát triển</h3>
-                        <p>Thúc đẩy sự nghiệp của bạn với các công cụ tiên tiến và sự hỗ trợ từ cộng đồng</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </div>
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>HPUni's Email</h4>
-                    <p>Giải pháp email toàn diện cho Trường Đại học Hải Phòng</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Liên kết nhanh</h4>
-                    <a href="#privacy">Chính sách bảo mật</a>
-                    <a href="#terms">Điều khoản dịch vụ</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Liên hệ</h4>
-                    <p class="flex gap-1">Email:<a href="mailto:dtc@dhhp.edu.vn" class="text-white">dtc@dhhp.edu.vn</a></p>
-                    <p class="flex gap-1">Điện thoại:<a href="tel:0762559696" class="text-white">0762.559.696</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Trường Đại học Hải Phòng. All rights reserved.</p>
+                    <div class="text-white text-center">Microsoft</div>
+                </a>
             </div>
         </div>
-    </footer>
-
-    <script src="script.js"></script>
+        <div class="max-w-xl mx-auto text-white">
+            <div class="glassmorphism max-w-md mx-auto mt-4 2xl:mt-6 rounded-full flex items-center justify-center">
+                <div class="flex items-center justify-center space-x-4">
+                    <div class="flex gap-2 items-center p-4">
+                        <span class="w-2 h-2 bg-blue-500 rounded border"></span>
+                        <a href="https://dhhp.edu.vn" target="_blank" class="hover:underline">Trang chủ</a>
+                    </div>
+                </div>
+                -
+                <div class="flex items-center justify-center space-x-4">
+                    <div class="flex gap-2 items-center p-4">
+                        <span class="w-2 h-2 bg-green-500 rounded border"></span>
+                        <a href="https://www.facebook.com/groups/1973356270078224" target="_blank" class="hover:underline">Cộng đồng</a>
+                    </div>
+                </div>
+                -
+                <div class="flex items-center justify-center space-x-4">
+                    <div class="flex gap-2 items-center p-4">
+                        <span class="w-2 h-2 bg-orange-500 rounded border"></span>
+                        <a href="https://www.facebook.com/tan.dct" target="_blank" class="hover:underline">Hỗ trợ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
